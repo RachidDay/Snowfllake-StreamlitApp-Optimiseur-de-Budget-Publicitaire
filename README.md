@@ -1,9 +1,30 @@
-# Getting Started with Data Engineering and ML using Snowpark for Python
+# Snowfllake-Streamlit App Optimiseur de Budget Publicitaire
 
-## Overview
+## Présentation
 
-In this guide, we will perform data engineering (data analysis and data preparation) and machine learning tasks to train a Linear Regression model to predict future ROI (Return On Investment) of variable ad spend budgets across multiple channels including search, video, social media, and email using Snowpark for Python, Streamlit and scikit-learn. By the end of the session, you will have an interactive web application deployed visualizing the ROI of different allocated advertising spend budgets.
+Ce projet implémente une analyse de données et une préparation de données pour entraîner un modèle de régression linéaire prédisant le retour sur investissement (ROI) de budgets publicitaires variables sur plusieurs canaux, incluant la recherche, la vidéo, les médias sociaux et l'email. Utilisant Snowpark pour Python, Snowpark ML et Streamlit, le résultat final est une application web interactive visualisant le ROI pour différentes allocations de budget publicitaire.
 
-## Step-By-Step Guide
+## Caractéristiques
 
-For prerequisites, environment setup, step-by-step guide and instructions, please refer to the [QuickStart Guide](https://quickstarts.snowflake.com/guide/getting_started_with_dataengineering_ml_using_snowpark_python/index.html).
+### Connexion Sécurisée à Snowflake
+Établissement d'une connexion sécurisée à Snowflake pour un accès aux données fiable.
+
+### Chargement des Données
+Chargement des données depuis les tables Snowflake dans les DataFrames Snowpark.
+
+### Analyse Exploratoire des Données (EDA)
+Réalisation d'EDA sur les DataFrames Snowpark pour comprendre les données.
+
+### Manipulation de Données
+Pivot et jointure de données de plusieurs tables en utilisant les DataFrames Snowpark.
+
+### Automatisation de la Préparation des Données
+Utilisation des Tâches Snowflake pour automatiser la préparation des données.
+
+### Entraînement du Modèle
+Entraînement d'un modèle de régression linéaire avec Snowpark ML et scikit-learn.
+
+### Visualisation Interactives
+Déploiement d'une application Streamlit pour la visualisation interactive des prévisions de ROI.
+
+
