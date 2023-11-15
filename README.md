@@ -4,6 +4,8 @@
 
 Ce projet implémente une analyse de données et une préparation de données pour entraîner un modèle de régression linéaire prédisant le retour sur investissement (ROI) de budgets publicitaires variables sur plusieurs canaux, incluant la recherche, la vidéo, les médias sociaux et l'email. Utilisant Snowpark pour Python, Snowpark ML et Streamlit, le résultat final est une application web interactive visualisant le ROI pour différentes allocations de budget publicitaire.
 
+<img width="561" alt="image" src="https://github.com/RachidDay/Snowfllake-StreamlitApp-Optimiseur-de-Budget-Publicitaire/assets/93099244/55dd542b-867d-4bb6-bd9d-d06e43536126">
+
 ## Caractéristiques
 
 ### Connexion Sécurisée à Snowflake
